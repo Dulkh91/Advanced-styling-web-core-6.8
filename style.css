@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+}
+.container{
+    position: relative;
+}
+/* Navbar */
+.navibar{
+    margin: 20px 20px;
+    cursor: pointer;
+}
+/* aside */
+.sibebar{
+    background-color: #ffffff;
+    width: 320px;
+    box-shadow: 8px 0px 52px gray;
+    min-height: 100vh;
+    position: absolute;
+    /* Make hidden sibebar*/
+    /* margin-left: -350px; */
+    margin-top: -85px;
+    
+}
+
+.menu_title{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 700px
+}
+/* Custom item menu */
+
+.items{
+    display: flex;
+     justify-content: space-between;
+    margin: 10px;
+    
+}
+.items img{
+    margin: 8px;
+}
+
+/* Equipment Repair */
+.navibar__head{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.navibar__head--line{
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+    border-radius: 0 30px 30px 0;
+}
+.navibar__head--txt{
+    color: #7E7E82;
+    font-size: 1rem;
+}
+.navibar__menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navibar__menu li{
+    font-size: 1rem;
+    color: #1B1C21;
+    padding: 5px 10px;
+    margin: 15px 10px;
+}
+
+/* Custom Infor */
+.infor__image{
+    margin: 10px;
+}
+.infor__image img{
+   padding: 5px;  
+}
+.infor p{
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin: 20px 15px;
+}
+.infor h1{
+    margin: 0 15px;
+}
+.infor__lang{
+    margin: 60px 15px;
+}
+.infor__lang button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #1B1C21;
+}
+.infor__lang button:hover{
+    color: #7E7E82;
+}
+
+
+
